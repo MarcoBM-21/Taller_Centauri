@@ -1,0 +1,115 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .item1 {
+    grid-column: span 3;
+      grid-row: span 2;
+    padding: 5vh;
+    border-radius: 15px;
+    border-color: #0a2342;
+    border-width: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; 
+  }
+  
+  .item2 {
+    grid-column: 4 / span 2;
+    border-radius: 10px;
+    padding: 5vh;
+    border: 1.5px solid #5ece2b;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .item3 {
+    grid-column: 4 / span 2;
+      grid-row: 2;
+    border-radius: 10px;
+    padding: 5vh;
+    border: 1.5px solid #ea7223;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .item4 {
+    grid-column: span 5;
+    grid-row: 3 / span 2;
+    border-radius: 10px;
+    border: 1.5px solid #ea1818;
+    padding: 2vw;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .centered-content {
+    flex: 1;
+    display: flex;
+    align-items: center; /* centra verticalmente */
+    justify-content: center; /* opcional: centra horizontalmente */
+    font-weight: 100;
+    color: #8e8e8e;
+  }
+
+  form {
+    font-family: "Rubik";
+  }
+  
+button{
+    background-color: #720707;
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: #ea1818;
+    color: #ffffff;
+}
+
+.central {
+    display: flex;
+    justify-content: center;
+}
+
+.negative {
+    color: #5ece2b;
+}
+
+.positive {
+    color: #de2012;
+}
+
+.resultado-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+.btn_models {
+  background-color: rgba(144, 0, 0, 0.65);
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  font-size: medium ;
+  align-items: center;
+}
+
+.btn_models:hover{
+  background-color: rgba(168, 10, 10, 1);
+}

@@ -1,0 +1,21 @@
+.home_container{
+    background-image: url('/assets/new_option_4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.text_container {
+    background-color: rgba(233, 11, 11, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 2vw;
+    margin-left: 5vw;
+}

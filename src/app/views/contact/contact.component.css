@@ -1,0 +1,26 @@
+.central {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.linkedin-icon {
+    color: #0077b5;
+}
+.profile-img {
+    height: 250px;
+    object-fit: cover;
+}
+
+a {
+    color: #720707 !important;
+}
+a:hover {
+    color: #5a0505 !important;
+}

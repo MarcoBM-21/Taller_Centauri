@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;          /* ⬅ centra verticalmente todo dentro */
+    height: 10vh;                 /* ⬅ altura fija usando vh */
+    padding: 0 2rem;
+    background: transparent;
+}
+
+.logo-navbar {
+    height: 100%;                 /* ⬅ se adapta al alto del navbar */
+    max-height: 8vh;             /* ⬅ nunca se pasa del alto visible */
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.navbar-section {
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #720707;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.navbar-link:hover {
+    color: #ea1818;
+}
+
+.navbar-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #ea1818;
+    transition: width 0.3s ease;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+}
