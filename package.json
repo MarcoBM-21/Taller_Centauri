@@ -21,6 +21,7 @@
     "@angular/platform-server": "^19.1.0",
     "@angular/router": "^19.1.0",
     "@angular/ssr": "^19.1.5",
+    "@netlify/angular-runtime": "^2.3.1",
     "@ngneat/tailwind": "^7.0.3",
     "@tailwindcss/postcss": "^4.1.4",
     "bootstrap": "^5.3.5",
